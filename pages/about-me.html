@@ -3,9 +3,10 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>About Me</title>
+		<link rel="stylesheet" href="../css/master.css" />
 	</head>
 	<body>
-        <table>
+		<table>
 			<tr>
 				<td>
 					<img
@@ -16,74 +17,104 @@
 				</td>
 				<td>
 					<h1>
-						Amaan Shaikh<sub style="font-size: 0.6em"
-							><i>(Software Engineer)</i></sub
-						>
+						Amaan Shaikh
+						<sub>
+							<i>(Software Engineer)</i>
+						</sub>
 					</h1>
 					<h2>
-						Technology Analyst at
-						<a href="https://www.infosys.com/">Infosys</a>, <br />
+						<i>
+							Technology Analyst at
+							<a target="_blank" href="https://www.infosys.com/">
+								Infosys
+							</a>
+						</i>
+						, <br />
 						Pune, Maharashtra, India - 411057.
 					</h2>
 				</td>
 			</tr>
 		</table>
-		<hr size="2" noshade color="Black" />
-		<table>
-			<tr>
-				<td width="250em">
-					<a href="../index.html"><strong>Homepage</strong></a>
-				</td>
-				<td width="250em">
-					<a href="special-link.html"><strong>Special link</strong></a>
-				</td>
-                <td width="250em">
-					<a href="../index.html#Contact"><strong>Contact</strong></a>
-				</td>
-			</tr>
-		</table>
-		<hr size="2" noshade color="Black" />
-		<h1>About Me</h1>
-		<p>
-			Hard Worker and Developer. Willing to be part of an organization to
-			expand my learnings, knowledge, and skills by utilizing them toward
-			the goal of the organization.
-		</p>
-		<hr size="1" noshade color="Black" />
+		<nav>
+			<div>
+				<a href="../index.html"><strong>🏠️</strong></a>
+			</div>
+			<div>
+				<a href="special-link.html">
+					<strong> Special link </strong>
+				</a>
+			</div>
+			<div>
+				<a href="#Contact"> <strong> Contact </strong> </a>
+			</div>
+		</nav>
+		<center>
+			<h1>About Me</h1>
+			<p>
+				Hard Worker and Developer. Willing to be part of an organization <br>
+				to expand my learnings, knowledge, and skills by utilizing them <br>
+				toward the goal of the organization.
+			</p>
+		</center>
+		<hr />
 		<footer>
-			<h3><a target="_blank" name="Contact">Contact Information</a></h3>
-			<ul>
-				<li>
-					<strong>Email:</strong>
-					<a target="_blank" href="mailto:amaan.nassar123@gmail.com">
-						amaan.nassar123@gmail.com
-					</a>
-				</li>
-				<li>
-					<strong>Phone:</strong>
-					<a target="_blank" href="tel:+918830637234">
-						+91-8830637234
-					</a>
-				</li>
-			</ul>
+			<h3><a target="_blank" name="Contact">CONTACT INFORMATION:</a></h3>
+			<table class="contact">
+				<tr>
+					<td>
+						<strong>Email:</strong>
+					</td>
+					<td>
+						<a
+							target="_blank"
+							href="mailto:amaan.nassar123@gmail.com"
+						>
+							amaan.nassar123@gmail.com
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong>Phone:</strong>
+					</td>
+					<td>
+						<a target="_blank" href="tel:+918830637234">
+							+91-8830637234
+						</a>
+					</td>
+				</tr>
+			</table>
+			<hr />
+			<h3>CONNECT:</h3>
 			<form
-				action="mailto:amaan.nassar123@gmail.com"
+				action="mailto:amaan.nassar123@gmail.com?subject=CONNECT"
 				method="post"
 				enctype="text/plain"
 			>
-				<label> Your Name: </label>
-				<input type="text" name="yourName" /><br />
-				<label> Your Email: </label>
-				<input
-					type="email"
-					name="yourEmail"
-				/><br />
-				<label> Your Phone: </label>
-				<input type="tel" name="yourPhone"/><br />
-				<label> Your Message: </label><br />
-				<textarea cols="30" rows="10" name="yourMessage"></textarea
-				><br />
-				<input type="submit" />
+				<table>
+					<tr>
+						<td><label> Your Name: </label></td>
+						<td><input type="text" name="yourName" /></td>
+					</tr>
+					<tr>
+						<td><label> Your Email: </label></td>
+						<td><input type="email" name="yourEmail" /></td>
+					</tr>
+					<tr>
+						<td><label> Your Phone: </label></td>
+						<td><input type="tel" name="yourPhone" /></td>
+					</tr>
+					<tr>
+						<td><label> Your Message: </label></td>
+						<td>
+							<textarea cols="30" rows="10" name="yourMessage">
+							</textarea>
+						</td>
+					</tr>
+					<tr>
+						<td><input type="submit" /></td>
+					</tr>
+				</table>
 			</form>
 		</footer>
 	</body>
